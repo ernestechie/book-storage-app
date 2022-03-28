@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- SKELETON UI BOILERPLATE CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" integrity="sha512-5fsy+3xG8N/1PV5MIJz9ZsWpkltijBI48gBzQ/Z2eVATePGHOkMIn+xTDHIfTZFVb9GMpflF2wOWItqxAP2oLQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <script src="https://kit.fontawesome.com/0b7e374f59.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="./style.css">
+   <title>Book Listing App</title>
+</head>
+<body>
+   <div class="container">
+      <h3>Book Listing App</h3>
+      <div class="alert"></div>
+      <form action="" id="book-form">
+         <div>
+            <label for="title">Title</label>
+            <input type="text" id="title" class="u-full-width" placeholder="Book title">
+         </div>
+         <div>
+            <label for="title">Author</label>
+            <input type="text" id="author" class="u-full-width" placeholder="Book Author">
+         </div>
+         <div>
+            <label for="title">ISBN</label>
+            <input type="text" id="isbn" class="u-full-width"  placeholder="ISBN">
+         </div>
+         <div>
+            <input type="submit" value="SUBMIT" class="u-full-width button-primary">
+         </div>
+      </form>
+      <table class="u-full-width">
+         <thead>
+            <tr>
+               <th>Title</th>
+               <th>Author</th>
+               <th>ISBN</th>
+               <th></th>
+            </tr>
+         </thead>
+         <tbody id="book-list">
+         </tbody>
+      </table>
+   </div>
+   <!-- <script src="./App.js"></script> -->
+   <script src="./ES5-OOP-App.js"></script>
+   <!-- <script src="./ES6-OOP-App.js"></script> -->
+</body>
+</html>
