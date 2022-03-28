@@ -1,5 +1,9 @@
 # BOOK STORING APP WITH OOP JAVASCRIPT & SKELETON UI
 
+# TECHNOLOGIES
+- OOP JavaScript
+- Skeleton UI (A minimalistic HTML-CSS Boilerplate)
+
 # APP STRUCTURE
 - Create the book constructor -- The book constructor takes in three parameters (Author of the book, title, & ISBN)
 
